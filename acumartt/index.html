@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+
+    <!-- slick -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <!-- owl carousel -->
+    <!-- <link rel="stylesheet" href="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.theme.default.min.css" /> -->
+
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!------------------------- header start ------------------------------>
+    <header>
+        <div class="top_nav">
+            <div class="container">
+                <!-- top section -->
+                <div class=" d-flex justify-content-between py-2">
+                    <div class="top_left">
+                        <p>Grocery shopping can be conveninet <a href="#">Register Now</a></p>
+                    </div>
+                    <div class="top_right d-flex">
+                        <div class="front">
+                            <i class="fas fa-phone-volume"></i>
+                            <p class="d-inline-block">Hotline: <a href="tel:+">018XXXXXXXX</a></p>
+                        </div>
+                        <div class="back">
+                            <i class="far fa-user-circle"></i>
+                            <p class="d-inline-block"> Hi, <a href="#"> Devin</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="position-relative">
+        <div class="container">
+
+                <div class="row mt-2">
+                    <div class="col-2">
+                        <a href="../acumartt/index.html">
+                            <h1>Logo</h1>
+                        </a>
+                    </div>
+
+
+                    <div class="col-8 top_search_bar">
+                        <div class="nav_search-body">
+                            <div class="btn-group w-100" role="group" aria-label="Basic example">
+
+                                    <lable for="top_search" class="nav_search d-flex align-items-center position-relative w-100">
+                                        <i class="fas fa-search"></i>
+                                        <input type="search" class="form-control ml-4" placeholder="I’m searching for..." id="top_search">
+                                    </lable>
+
+                                <button type="button" class="btn">Search</button>
+                            </div>
+                        </div>
+                        <div class="trading my-3 d-flex">
+                            <p class="after_border ml-0"><strong>Trending Products:</strong> Honey Citron Ginger Tea</p>
+                            <p class="after_border">Hungarian Sausage</p>
+                            <p>Pompano</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-2 cart_main mt-3">
+                        <p class="text-right cart mb-0">
+                            <i class="far fa-heart"></i>
+                            <a href="../acumartt cart/index.html"><i class="fas fa-cart-plus"></i></a>
+                        </p>
+                    </div>
+                </div>
+
+        </div>
+
+                <!-- main nav -->
+
+                <div class="navbar navbar-expand-lg main_nav navbar-light">
+                    <div class="container py-2">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="../acumartt/index.html">Home</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Categories
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Categories 1</a>
+                                        <div class="dropdown-divider">
+                                    </div>
+                                    <a class="dropdown-item" href="#">Categories 2</a>
+                                    <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Categories 3</a>
+                    </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Products 1</a>
+                            <div class="dropdown-divider">
+                        </div>
+                        <a class="dropdown-item" href="#">Products 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Products 3</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../acumartt cart/index.html">My Orders</a>
+                    </li>
+
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                My Recent Views
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Option 1</a>
+                                <div class="dropdown-divider">
+                            </div>
+                            <a class="dropdown-item" href="#">Option 2</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Option 3</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+
+    </nav>
+
+
+
+        <!-- pagination -->
+        <div class="pagination">
+            <div class="container">
+                <a href="../acumartt/index.html">Home</a>/ <a href="#">Meat & Poultry</a>/ Chicken Wings
+            </div>
+        </div>
+    </header>
+    <!-- ---------------------- header end --------------------------- -->
+    <div class="container">
+        <!-- ---------------- main_prodect start ---------------------------- -->
+        <section class="main_prodect mt-5">
+            <div class="row">
+                <div class="col-md-4 col-10 mx-auto">
+                    <div class="main_prodect_img">
+                        <img src="image/green-chicken-3.jpg" alt="Products" class="img-fluid">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 mx-auto">
+                    <h5>Chicken Wings</h5>
+                    <div class="rating d-flex mt-3">
+                        <div class="rating_star mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#">5 Customer Review</a>
+                    </div>
+
+                    <div class="weight mt-5 mb-3">
+                        <h5>P 109.50 </h5>
+                        <h5 class="gram">500G</h5>
+                    </div>
+                    <hr class="bg-secondary mx-2">
+                    <h6 class="mb-4">Quantity</h6>
+
+                    <div class="quantity">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 col-sm-6 quantity_left p-lg-0 my-lg-0 my-md-3 my-sm-0 my-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="circle"> - </div>
+                                    <h5 class="mx-auto my-2">1</h5>
+                                    <div class="circle"> + </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-7 col-md-12 col-sm-6">
+                                <div class="quantity_right p-1 mb-5">
+                                    <div class="d-flex align-items-center">
+                                        <div class="circle"> <i class="fas fa-shopping-basket"></i> </div>
+                                        <p class="my-2 ml-2">Add to basket</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="social_share">
+                                <span class="fb">
+                                    <i class="fas fa-thumbs-up"></i> Like 0
+                                </span>
+                                <span class="fb">
+                                    <i class="fas fa-thumbs-up"></i> Like 0
+                                </span>
+                                <span class="twitter">
+                                    <i class="fab fa-twitter"></i> Like
+                                </span>
+                                <span class="plus">
+                                    <i class="fab fa-snapchat-ghost"></i></i> Like
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 mx-auto">
+                    <div class="customer_services mt-3">
+
+                        <div class="delivary p-3 mb-4">
+                            <div class="d-flex align-items-center">
+                                <img src="image/delivery-man.svg" alt="photos" class="filter_green mr-3">
+                                <p class="mb-0">
+                                    <strong>Free delivery</strong> applies to all orders <a href="#"> ₱1,00.00</a> and
+                                    above.
+                                </p>
+                            </div>
+
+                            <hr class="bg-secondary mx-2 my-4">
+
+                            <div class="d-flex align-items-center">
+                                <img src="image/delivery-man.svg" alt="photos" class="filter_green mr-3">
+                                <p class="mb-0">
+                                    Guaranteed <strong>100% Organic</strong>, farm fresh.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact">
+                            <div class="info p-3 ">
+                                <p>Hotline: <a href="tel:+"> +63 963 974 9974</a></p>
+                                <p>Email: <a href="mailto:">info@acumartt.com</a></p>
+                            </div>
+                            <button class="btn btn-block mb-3">CHAT WITH CUSTOMER SERVICE</button>
+                        </div>
+                        <p>Become a supplier. <a href="#"> Apply Now</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------- main_prodect end ---------------------------- -->
+
+
+        <hr class="bg-secondary my-5">
+
+        <div class="products_slider">
+            <h6>Related Products</h6>
+            <div class="responsive my-5">
+
+                <div class="border border-secondary rounded p-3 mx-2">
+                    <div class="d-flex align-items-center">
+                        <img src="image/Garlic-Transparent.png" alt="products" class="w-50 img-fluid">
+                        <div class="details mx-auto">
+                            <b>Garlic</b>
+                            <p class="mb-0">700 g</p>
+                            <p>
+                                <strong>₱230.00</strong>
+                                <del class="mx-2"> ₱230.00</del>
+                                <span class="text-danger font-weight-bold"><strong>10% off</strong></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border border-secondary rounded p-3 mx-2">
+                    <div class="d-flex align-items-center">
+                        <img src="image/cute-clipart-tomato-17.png" alt="products" class="w-50 img-fluid">
+                        <div class="details mx-auto">
+                            <b>Tomato</b>
+                            <p class="mb-0">500 g</p>
+                            <p>
+                                <strong>₱230.00</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border border-secondary rounded p-3 mx-2">
+                    <div class="d-flex align-items-center">
+                        <img src="image/Honey-Citron-Tea.jpg" alt="products" class="w-50 img-fluid">
+                        <div class="details mx-auto">
+                            <b>Honey Citron & Ginger Tea</b>
+                            <p class="mb-0">700 g</p>
+                            <p>
+                                <strong>₱230.00</strong>
+                                <del class="mx-2"> ₱230.00</del>
+                                <span class="text-danger font-weight-bold"><strong>10% off</strong></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="border border-secondary rounded p-3 mx-2">
+                    <div class="d-flex align-items-center">
+                        <img src="image/J1259_Tempura_Batter_Mix_700g_Showa_p.jpg" alt="products"
+                            class="w-50 img-fluid">
+                        <div class="details mx-auto">
+                            <b>Honey Citron & Ginger Tea</b>
+                            <p class="mb-0">700 g</p>
+                            <p>
+                                <strong>₱230.00</strong>
+                                <del class="mx-2"> ₱230.00</del>
+                                <span class="text-danger font-weight-bold"><strong>10% off</strong></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="all_products my-5">
+            <h6>Frequently Bought Together</h6>
+
+            <div class="row">
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-10 mx-auto d-flex my-4">
+                    <div class="card">
+                        <img src="image/J1259_Tempura_Batter_Mix_700g_Showa_p.jpg" class="card-img-top" alt="photos">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Showa Tempura Flour</h6>
+                            <p class="weight mb-1">700 g</p>
+                            <p class="card-text mb-1">
+                                    <strong>₱230.00</strong>
+                                    <del class="mx-1"> ₱230.00</del>
+                                    <span class="text-danger font-weight-bold"><strong>10% off</strong></span>
+                            </p>
+                            <div class="rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#">
+                                <button class="btn btn-block rounded-pill">Buy now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-10 mx-auto d-flex my-4">
+                    <div class="card">
+                        <img src="image/Garlic-Transparent.png" class="card-img-top" alt="photos">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Showa Tempura Flour</h6>
+                            <p class="weight mb-1">700 g</p>
+                            <p class="card-text mb-1">
+                                    <strong>₱230.00</strong>
+                                    <del class="mx-1"> ₱230.00</del>
+                                    <span class="text-danger font-weight-bold"><strong>10% off</strong></span>
+                            </p>
+                            <div class="rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="quantity_left p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="circle"> - </div>
+                                    <h5 class="mx-auto my-2">1</h5>
+                                    <div class="circle"> + </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-10 mx-auto d-flex my-4">
+                    <div class="card">
+                        <img src="image/J1259_Tempura_Batter_Mix_700g_Showa_p.jpg" class="card-img-top" alt="photos">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Showa Tempura Flour</h6>
+                            <p class="weight mb-1">700 g</p>
+                            <p class="card-text mb-1">
+                                    <strong>₱230.00</strong>
+                                    <del class="mx-1"> ₱230.00</del>
+                                    <span class="text-danger font-weight-bold"><strong>10% off</strong></span>
+                            </p>
+                            <div class="rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#">
+                                <button class="btn btn-block rounded-pill">Buy now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-10 mx-auto d-flex my-4">
+                    <div class="card">
+                        <img src="image/Garlic-Transparent.png" class="card-img-top" alt="photos">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Showa Tempura Flour</h6>
+                            <p class="weight mb-1">700 g</p>
+                            <p class="card-text mb-1">
+                                    <strong>₱230.00</strong>
+                                    <del class="mx-1"> ₱230.00</del>
+                                    <span class="text-danger font-weight-bold"><strong>10% off</strong></span>
+                            </p>
+                            <div class="rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="quantity_left p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="circle"> - </div>
+                                    <h5 class="mx-auto my-2">1</h5>
+                                    <div class="circle"> + </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-10 mx-auto d-flex my-4">
+                    <div class="card">
+                        <img src="image/J1259_Tempura_Batter_Mix_700g_Showa_p.jpg" class="card-img-top" alt="photos">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Showa Tempura Flour</h6>
+                            <p class="weight mb-1">700 g</p>
+                            <p class="card-text mb-1">
+                                    <strong>₱230.00</strong>
+                                    <del class="mx-1"> ₱230.00</del>
+                                    <span class="text-danger font-weight-bold"><strong>10% off</strong></span>
+                            </p>
+                            <div class="rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#">
+                                <button class="btn btn-block rounded-pill">Buy now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-10 mx-auto d-flex my-4">
+                    <div class="card">
+                        <img src="image/Garlic-Transparent.png" class="card-img-top" alt="photos">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Showa Tempura Flour</h6>
+                            <p class="weight mb-1">700 g</p>
+                            <p class="card-text mb-1">
+                                    <strong>₱230.00</strong>
+                                    <del class="mx-1"> ₱230.00</del>
+                                    <span class="text-danger font-weight-bold"><strong>10% off</strong></span>
+                            </p>
+                            <div class="rating mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="quantity_left p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="circle"> - </div>
+                                    <h5 class="mx-auto my-2">1</h5>
+                                    <div class="circle"> + </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <hr class="bg-secondary">
+
+
+
+
+    <!------------------------- footer start ------------------------------>
+    <footer>
+        <div class="footer_top my-5">
+            <div class="row">
+                <div class="col-lg-2 col-sm-6 col-10 mx-auto my-4">
+                    <h6 class="mb-4">Help & Information</h6>
+                    <p><a href="#" class="text-dark">About Us</a></p>
+                    <p><a href="#" class="text-dark">Store Locations</a></p>
+                    <p><a href="#" class="text-dark">Terms of UsePrivacy Policy</a></p>
+                    <p><a href="#" class="text-dark">Privacy Policy</a></p>
+                    <p><a href="#" class="text-dark">FAQs</a></p>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto my-4">
+                    <h6 class="mb-4">Help & Information</h6>
+                    <p><a href="#" class="text-dark">Become a Supplier </a></p>
+                    <p><a href="#" class="text-dark">Affiliate Program</a></p>
+                    <p><a href="#" class="text-dark">Careers</a></p>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto my-4">
+                    <h6 class="mb-4">Contact Us</h6>
+                    <p> Customer Service Hotline <a href="tel:+"> +63 963 974 9974</a></p>
+                    <p>Head Office: <a href="#">Lanang, Davao City PH 8000</a></p>
+                    <p>Email Us: <a href="mailto:">info@acumartt.com</a></p>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-10 mx-auto my-4">
+                    <h6 class="mb-4">Contact Us</h6>
+                    <p>
+                        Join our mailing list to receive product <strong> updates, promotions </strong> and <strong>discount coupons</strong>
+                    </p>
+
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <input type="search" name="search" class="footer_search form-control" id="search" placeholder="Enter your email...">
+                        <button type="button" class="btn">Subscribe</button>
+
+                    </div>
+
+                    <h6>Download the App & Get <a href="#">₱50.00 coupon</a></h6>
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <a href="#"><img src="image/ww_app-store-badge_150909.png" alt="photos" class="img-fluid"></a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#"><img src="image/Play-Store-Logo-2.png" alt="photos" class="img-fluid"></a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <hr class="bg-secondary">
+
+        <div class="footer_bottom my-4">
+            <p>© 2021 Acumartt. All Rights Reserved. </p>
+        </div>
+
+    </footer>
+    <!------------------------- footer end ------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap 4 js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+
+    <!-- owl carousel -->
+
+    <!-- <script src="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.min.js"></script> -->
+
+    <!-- slick carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

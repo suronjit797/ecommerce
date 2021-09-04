@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+
+
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="top_nav">
+            <div class="container">
+                <!-- top section -->
+                <div class=" d-flex justify-content-between py-2">
+                    <div class="top_left">
+                        <p>Grocery shopping can be conveninet <a href="#">Register Now</a></p>
+                    </div>
+                    <div class="top_right d-flex">
+                        <div class="front">
+                            <i class="fas fa-phone-volume"></i>
+                            <p class="d-inline-block">Hotline: <a href="tel:+">018XXXXXXXX</a></p>
+                        </div>
+                        <div class="back">
+                            <i class="far fa-user-circle"></i>
+                            <p class="d-inline-block"> Hi, <a href="#"> Devin</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="position-relative">
+        <div class="container">
+
+                <div class="row mt-2">
+                    <div class="col-md-2 col-6">
+                        <a href="../acumartt/index.html">
+                            <h1>
+                                <img src="image/logo.svg" alt="Logo" class="img-fluid">
+                            </h1>
+                        </a>
+                    </div>
+
+
+                    <div class="col-8 top_search_bar">
+                        <div class="nav_search-body">
+                            <div class="btn-group w-100" role="group" aria-label="Basic example">
+
+                                    <lable for="top_search" class="nav_search d-flex align-items-center position-relative w-100">
+                                        <i class="fas fa-search"></i>
+                                        <input type="search" class="form-control ml-4" placeholder="I’m searching for..." id="top_search">
+                                    </lable>
+
+                                <button type="button" class="btn">Search</button>
+                            </div>
+                        </div>
+                        <div class="trading my-3 d-flex">
+                            <p class="after_border ml-0"><strong>Trending Products:</strong> Honey Citron Ginger Tea</p>
+                            <p class="after_border">Hungarian Sausage</p>
+                            <p>Pompano</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-2 cart_main mt-3">
+                        <p class="text-right cart mb-0">
+                            <i class="far fa-heart"></i>
+                            <a href="../acumartt cart/index.html"><i class="fas fa-cart-plus"></i></a>
+                        </p>
+                    </div>
+                </div>
+
+        </div>
+
+                <!-- main nav -->
+
+                <div class="navbar navbar-expand-lg main_nav navbar-light">
+                    <div class="container py-2">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="../acumartt/index.html">Home</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Categories
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Categories 1</a>
+                                        <div class="dropdown-divider">
+                                    </div>
+                                    <a class="dropdown-item" href="#">Categories 2</a>
+                                    <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Categories 3</a>
+                    </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Products 1</a>
+                            <div class="dropdown-divider">
+                        </div>
+                        <a class="dropdown-item" href="#">Products 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Products 3</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../acumartt cart/index.html">My Orders</a>
+                    </li>
+
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                My Recent Views
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Option 1</a>
+                                <div class="dropdown-divider">
+                            </div>
+                            <a class="dropdown-item" href="#">Option 2</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Option 3</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+
+    </nav>
+
+
+
+        <!-- pagination -->
+        <div class="pagination">
+            <div class="container">
+                <a href="../acumartt/index.html">Home</a>/ <a href="#">Meat & Poultry</a>/ Chicken Wings
+            </div>
+        </div>
+    </header>
+
+    <div class="cart my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="cart_body mb-5">
+                        <ul class="py-2">
+                            <li class="container-fluid cart_header d-md-block d-none py-2" >
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-10 ">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-3">Product</div>
+                                            <div class="col-md-4 text-center">Price</div>
+                                            <div class="col-md-2 text-center">Quantity</div>
+                                            <div class="col-md-3 text-center">Total</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-sm-3 col-4">
+                                        <img src="image/Honey-Citron-Tea.jpg" alt="photos" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-10 col-sm-9 col-8">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <b>Honey Citron & Ginger Tea</b>
+                                                    <p class="mb-0">700 g</p>
+                                                </div>
+                                                <div class="col-md-3 mb-md-0 mb-2"><b>₱230.00 </b> <del>₱252.00</del> </div>
+                                                <div class="col-md-2 p-0 col-6">
+                                                    <div class="cart_quantity d-flex align-items-center justify-content-between">
+                                                            <div class="circle"> + </div>
+                                                                <div class="mb-0">4</div>
+                                                            <div class="circle"> - </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-6">
+                                                    <div class="total d-flex justify-content-between align-items-center">
+                                                        <b>₱920.00</b>
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </li>
+
+                            <li class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-sm-3 col-4">
+                                        <img src="image/Honey-Citron-Tea.jpg" alt="photos" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-10 col-sm-9 col-8">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <b>Honey Citron & Ginger Tea</b>
+                                                    <p class="mb-0">700 g</p>
+                                                </div>
+                                                <div class="col-md-3 mb-md-0 mb-2"><b>₱230.00 </b> <del>₱252.00</del> </div>
+                                                <div class="col-md-2 p-0 col-6">
+                                                    <div class="cart_quantity d-flex align-items-center justify-content-between">
+                                                            <div class="circle"> + </div>
+                                                                <div class="mb-0">4</div>
+                                                            <div class="circle"> - </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-6">
+                                                    <div class="total d-flex justify-content-between align-items-center">
+                                                        <b>₱920.00</b>
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </li>
+
+                            <li class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-sm-3 col-4">
+                                        <img src="image/Honey-Citron-Tea.jpg" alt="photos" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-10 col-sm-9 col-8">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <b>Honey Citron & Ginger Tea</b>
+                                                    <p class="mb-0">700 g</p>
+                                                </div>
+                                                <div class="col-md-3 mb-md-0 mb-2"><b>₱230.00 </b> <del>₱252.00</del> </div>
+                                                <div class="col-md-2 p-0 col-6">
+                                                    <div class="cart_quantity d-flex align-items-center justify-content-between">
+                                                            <div class="circle"> + </div>
+                                                                <div class="mb-0">4</div>
+                                                            <div class="circle"> - </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-6">
+                                                    <div class="total d-flex justify-content-between align-items-center">
+                                                        <b>₱920.00</b>
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </li>
+                            <li class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-sm-3 col-4">
+                                        <img src="image/Honey-Citron-Tea.jpg" alt="photos" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-10 col-sm-9 col-8">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <b>Honey Citron & Ginger Tea</b>
+                                                    <p class="mb-0">700 g</p>
+                                                </div>
+                                                <div class="col-md-3 mb-md-0 mb-2"><b>₱230.00 </b> <del>₱252.00</del> </div>
+                                                <div class="col-md-2 p-0 col-6">
+                                                    <div class="cart_quantity d-flex align-items-center justify-content-between">
+                                                            <div class="circle"> + </div>
+                                                                <div class="mb-0">4</div>
+                                                            <div class="circle"> - </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-6">
+                                                    <div class="total d-flex justify-content-between align-items-center">
+                                                        <b>₱920.00</b>
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+
+
+
+
+                        </ul>
+
+
+                    </div>
+
+                    <div class="card_footer">
+                        <button class="btn shopping"><i class="fas fa-chevron-left pr-3"></i> Continue Shopping </button>
+                        <a href="#"><u><b>Clear all items</b></u></a>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 cart_right">
+                    <div class="card mb-3">
+                        <div class="card_header mb-4"><h6>Your Cart Summary</h6></div>
+                        <div class="card_body">
+                            <div class="d-flex justify-content-between">
+                                <p>Your Cart Summary (3 items) </p>
+                                <b>₱1,920.00 </b>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <p>Delivery Charges</p>
+                                <b> ₱00.00 </b>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <p><a href="#"><i class="fas fa-percent mr-2 "></i> <u>Have coupon?</u></a></p>
+                                <b>₱00.00 </b>
+                            </div>
+
+                            <hr>
+
+                            <div class="d-flex justify-content-between">
+                                <b>Your Cart Total</b>
+                                <a href="#"><b>₱1,920.00</b> </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="../acumartt cheakout/index.html" class="checkout_btn btn btn-block py-3">
+                        Proceed to Checkout
+                        <i class="fas fa-chevron-right ml-3"></i>
+                    </a>
+                </div>
+
+
+            </div>
+            <hr class="mt-5 bg-secondary">
+        </div>
+
+
+    </div>
+
+
+
+    <!------------------------- footer start ------------------------------>
+    <footer class="container">
+        <div class="footer_top my-5">
+            <div class="row">
+                <div class="col-lg-2 col-sm-6 col-10 mx-auto my-4">
+                    <h6 class="mb-4">Help & Information</h6>
+                    <p><a href="#" class="text-dark">About Us</a></p>
+                    <p><a href="#" class="text-dark">Store Locations</a></p>
+                    <p><a href="#" class="text-dark">Terms of UsePrivacy Policy</a></p>
+                    <p><a href="#" class="text-dark">Privacy Policy</a></p>
+                    <p><a href="#" class="text-dark">FAQs</a></p>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto my-4">
+                    <h6 class="mb-4">Help & Information</h6>
+                    <p><a href="#" class="text-dark">Become a Supplier </a></p>
+                    <p><a href="#" class="text-dark">Affiliate Program</a></p>
+                    <p><a href="#" class="text-dark">Careers</a></p>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-10 mx-auto my-4">
+                    <h6 class="mb-4">Contact Us</h6>
+                    <p> Customer Service Hotline <a href="tel:+"> +63 963 974 9974</a></p>
+                    <p>Head Office: <a href="#">Lanang, Davao City PH 8000</a></p>
+                    <p>Email Us: <a href="mailto:">info@acumartt.com</a></p>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-10 mx-auto my-4">
+                    <h6 class="mb-4">Contact Us</h6>
+                    <p>
+                        Join our mailing list to receive product <strong> updates, promotions </strong> and <strong>discount coupons</strong>
+                    </p>
+
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <input type="search" name="search" class="footer_search form-control" id="search" placeholder="Enter your email...">
+                        <button type="button" class="btn">Subscribe</button>
+
+                    </div>
+
+                    <h6>Download the App & Get <a href="#">₱50.00 coupon</a></h6>
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <a href="#"><img src="image/ww_app-store-badge_150909.png" alt="photos" class="img-fluid"></a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#"><img src="image/Play-Store-Logo-2.png" alt="photos" class="img-fluid"></a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <hr class="bg-secondary">
+
+        <div class="footer_bottom my-4">
+            <p>© 2021 Acumartt. All Rights Reserved. </p>
+        </div>
+
+    </footer>
+    <!------------------------- footer end ------------------------------>
+
+
+
+
+
+
+
+    <!-- bootstrap 4 js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
